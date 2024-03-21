@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Transition</title>
+	<style>
+	
+		img {
+			margin-left: 130px;
+			transition-property: transform;
+            transition-duration: 5s;
+			
+			
+		}
+		img:hover {
+			transform: rotate(15deg);
+			
+		}
+
+		#imgs{
+          margin-left: 170px;
+          transition-property: transform;
+          transition-duration: 5s;
+		}
+		#imgs:hover{
+			transform: scale(1.2);
+		}
+	</style>
+
+</head>
+<body><h3>First row with rotate 15 degree effect on images on mouse hover</h3>
+	<img src="F:\Web_Development\Images\flower2.jpg" width="300" height="300" >
+    <img src="F:\Web_Development\Images\flower4.jpg" width="300" height="300" >
+    <img src="F:\Web_Development\Images\flower3.jpg" width="300" height="300" ><br><br>
+
+<h3>Second row with scale effect on mouse hover</h3>
+    <img src="F:\Web_Development\Images\flower2.jpg" width="200" height="200" id="imgs">
+    <img src="F:\Web_Development\Images\flower4.jpg" width="200" height="200" id="imgs">
+    <img src="F:\Web_Development\Images\flower3.jpg" width="200" height="200" id="imgs">
+
+
+</body>
+</html>
